@@ -1,0 +1,9 @@
+[groups]
+team1 = Petr, Jan
+team2 = Pavel, Lada
+[Team1:/]
+@team1 = rw
+@team2 = r
+[Team2:/]
+@team2 = rw
+@team1 = r
