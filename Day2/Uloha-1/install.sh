@@ -19,4 +19,5 @@ sudo htpasswd -b /etc/apache2/dav_svn.passwd Lada heslo
 sudo htpasswd -b /etc/apache2/dav_svn.passwd Pavel heslo
 sudo cp dav_svn.authz /etc/apache2/dav_svn.authz
 sudo cp dav_svn.conf /etc/apache2/modes-available/dav_svn.conf
+sudo a2enmod authz_svn
 sudo /etc/init.d/apache2 restart
